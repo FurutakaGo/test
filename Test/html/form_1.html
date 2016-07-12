@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>form_1</title>
+	</head>
+	<body>
+		<form action="http://www.baidu.com/s" method="get">
+			<label for="serch">百度搜索</label>
+			<input type="text" id="serch" name="wd"/>
+			<input type="submit" value="查询"/>
+		</form>
+		<form action="" method="get">
+			<br />
+			<label for="sserch">搜狗搜索</label>
+			<input type="text" id="sserch" name="query"/>
+			<input type="submit" value="查询"/>
+			<br/><label for="id">ID：</label>
+			<input type="text" id="id" name="id"/><br/>
+			<label for="pw">PW：</label>
+			<input type="password" id="pw" name="pw"/>
+			<div>
+				<label for="male">男</label>
+				<input type="radio" name="sex" value="male" id="male"/>
+				<label for="female">女</label>
+				<input type="radio" name="sex" value="female" id="female"/>
+			</div>
+			<div>
+			<label >常用浏览器</label><br />
+			<label for="gc">Chrome</label>
+			<input type="checkbox" id="gc" name="chrome"/>&nbsp;&nbsp;
+			<label for="ff">Frie Fox</label>
+			<input type="checkbox" id="ff" name="fire fox"/>&nbsp;&nbsp;
+			<label for="sg">Sogou</label>
+			<input type="checkbox" id="sg" name="sogou"/><br /></div>
+			
+			<select name="选择一门语言">
+				<option>--未选择--</option>
+				<option>C</option>
+				<option>C++</option>
+				<option>Java</option>
+			</select>
+			<br />
+			
+			<br />
+			
+			<div>
+				上传文件：<table><tr >
+					<td bgcolor="#00FFFF"><input type="file" name="resume" /></td><td><input type="button" value="提交"/></td>
+				</tr></table>
+			</div>
+			<div>
+				<input type="button" value="退出" />
+			&nbsp;&nbsp;
+			<input type="reset" value="重置"/>
+			&nbsp;&nbsp;
+			<input type="submit"value="提交注册"/>
+			
+		</form>
+	</body>
+</html>
